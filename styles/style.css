@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+/* Navigate bar css design */
 
 nav > ul {
   display: flex;
@@ -54,6 +55,8 @@ nav > ul > li:last-child {
   margin-right: 0;
 }
 
+/* Hero section css design */
+
 #hero {
   margin-top: 13px;
   border-radius: 15px;
@@ -62,6 +65,7 @@ nav > ul > li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 52px;
 }
 
 .hero-container {
@@ -121,4 +125,67 @@ nav > ul > li:last-child {
 
 #hero .hero-container .info button:hover {
   background-color: #d1510c;
+}
+
+/* Pillars section css design */
+
+.pillars-title h2 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  margin: 20px 0px;
+  letter-spacing: 0%;
+  text-align: left;
+  gap: 20;
+}
+
+#pillars {
+  width: 266px;
+  height: auto;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 0px 15px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+}
+
+#pillars .pillars-img {
+  width: 31px;
+}
+
+.pillars-img img {
+  width: 100%;
+}
+
+#pillars .some-info .pillars-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  margin: 7px 0px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#pillars .some-info .pillars-subtitle {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  margin: 7px 0px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  text-align: left;
 }
