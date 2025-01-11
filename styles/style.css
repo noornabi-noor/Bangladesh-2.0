@@ -393,6 +393,9 @@ nav > ul > li:last-child {
   background-color: #d1510c;
 }
 
+#yunus{
+  margin-top: 32px;
+}
 
 #yunus .quote {
   box-sizing: border-box;
@@ -429,6 +432,7 @@ nav > ul > li:last-child {
 }
 
 #yunus .quote h3 {
+  margin-top: 7px;
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
   font-size: 14px;
@@ -439,6 +443,7 @@ nav > ul > li:last-child {
 }
 
 #yunus .quote #p2 {
+  margin-top: 2px;
   color: rgba(14, 14, 14, 0.6);
   font-family: Fira Sans;
   font-size: 10px;
