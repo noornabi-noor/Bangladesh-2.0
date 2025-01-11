@@ -134,6 +134,7 @@
     line-height: 13px;
     text-align: left;
     cursor: pointer;
+    border: none;
   }
   
   #visions-box .vision-container .visions1 button:hover {
@@ -159,6 +160,7 @@
     line-height: 13px;
     text-align: left;
     cursor: pointer;
+    border: none;
   }
   #visions-box .vision-container .visions2 button:hover {
     background-color: #d1510c;
@@ -183,6 +185,7 @@
     line-height: 13px;
     text-align: left;
     cursor: pointer;
+    border: none;
   }
   #visions-box .vision-container .visions3 button:hover {
     background-color: #d1510c;
