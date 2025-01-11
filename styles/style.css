@@ -2,8 +2,8 @@
 /* font-family: "Fira Sans", serif; */
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 2px;
+  padding: 2px;
   box-sizing: border-box;
 }
 
@@ -65,7 +65,6 @@ nav > ul > li:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 52px;
 }
 
 .hero-container {
@@ -129,63 +128,74 @@ nav > ul > li:last-child {
 
 /* Pillars section css design */
 
-.pillars-title h2 {
-  color: rgb(14, 14, 14);
-  font-family: Fira Sans;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 31px;
-  margin: 20px 0px;
-  letter-spacing: 0%;
-  text-align: left;
-  gap: 20;
-}
-
-#pillars {
-  width: 266px;
-  height: auto;
-  position: static;
+#pillars-box {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: flex-start;
-  gap: 15px;
-  padding: 20px;
-  flex: none;
-  order: 0;
-  flex-grow: 1;
-  margin: 0px 15px;
-  box-sizing: border-box;
-  border-radius: 16px;
-  background: rgba(84, 144, 245, 0.2);
+  margin: 20px 0;
 }
 
-#pillars .pillars-img {
-  width: 31px;
+#pillars-box h2 {
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.9);
+  margin-bottom: 20px;
+}
+
+.pillars-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pillars {
+  flex: 1;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 0.65px solid rgba(14, 14, 14, 0.15);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.pillars-img {
+  width: 40px;
+  text-align: center;
 }
 
 .pillars-img img {
   width: 100%;
+  display: block;
 }
 
-#pillars .some-info .pillars-title {
-  color: rgba(14, 14, 14, 0.8);
+.some-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.pillars-title {
   font-family: Fira Sans;
-  margin: 7px 0px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
-  line-height: 15px;
-  letter-spacing: 0%;
-  text-align: left;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 0 0 5px;
 }
 
-#pillars .some-info .pillars-subtitle {
-  color: rgba(14, 14, 14, 0.7);
+.pillars-subtitle {
   font-family: Fira Sans;
-  margin: 7px 0px;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 15px;
-  letter-spacing: 0%;
-  text-align: left;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 16px;
+  margin: 0;
 }
