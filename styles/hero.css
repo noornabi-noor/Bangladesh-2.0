@@ -1,0 +1,68 @@
+#hero {
+    margin-top: 5px;
+    border-radius: 15px;
+    background: rgb(198, 228, 214);
+    padding: 52px 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+  }
+  
+  #hero .hero-container .info {
+    width: 50%;
+  }
+  
+  .hero-img img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #hero .hero-container .subtitle {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  #hero .hero-container .title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .btn {
+    border-radius: 5px;
+    margin-top: 15px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0%;
+    padding: 10px 20px;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #hero .hero-container .info button:hover {
+    background-color: #d1510c;
+  }

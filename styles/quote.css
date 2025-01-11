@@ -1,0 +1,59 @@
+#yunus {
+    margin-top: 32px;
+  }
+  
+  #yunus .quote {
+    box-sizing: border-box;
+    border: 0.65px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    position: relative;
+  }
+  
+  #yunus .quote .quote-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45px;
+    z-index: 0;
+  }
+  
+  #yunus .quote .quote-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  #yunus .quote #p1 {
+    position: relative;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  #yunus .quote h3 {
+    margin-top: 7px;
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  #yunus .quote #p2 {
+    margin-top: 2px;
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+  }

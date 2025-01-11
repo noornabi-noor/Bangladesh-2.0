@@ -1,0 +1,72 @@
+#pillars-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+  
+  #pillars-box h2 {
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.9);
+    margin-bottom: 20px;
+  }
+  
+  .pillars-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .pillars {
+    flex: 1;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 0.65px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+  }
+  
+  .pillars-img {
+    width: 40px;
+    text-align: center;
+    background: rgb(129, 180, 252);
+  }
+  
+  .pillars-img img {
+    width: 100%;
+    display: block;
+  }
+  
+  .some-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .pillars-title {
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0 0 5px;
+  }
+  
+  .pillars-subtitle {
+    font-family: Fira Sans;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 16px;
+    margin: 0;
+  }
