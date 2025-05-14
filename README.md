@@ -3,7 +3,7 @@ BANGLADESH 2.0 is a fully responsive static website built using only HTML and CS
 
 🌐 Live Demo
 
-
+        https://noornabi-noor.github.io/Bangladesh-2.0/
 
 # 📱 Features: 
 
@@ -38,8 +38,9 @@ Clone this Repository
         git clone https://github.com/noornabi-noor/Bangladesh-2.0.git
 
 Open index.html in your browser
-        cd BANGLADESH-2.0
-        open index.html
+
+        1. cd BANGLADESH-2.0
+        2. open index.html
 
 
 # 📱 Responsive Breakpoints
@@ -51,6 +52,6 @@ Open index.html in your browser
 CSS Media Queries are used to ensure optimal display on all screen sizes.
 
 # 🛠️ Built With
-        HTML5
-        CSS3 (Responsive with Flexbox & Media Queries)
-        No JS, No Frameworks
+        1. HTML5
+        2. CSS3 (Responsive with Flexbox & Media Queries)
+        3. No JS, No Frameworks
