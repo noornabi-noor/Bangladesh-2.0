@@ -1,4 +1,4 @@
-#visions-box {
+/* #visions-box {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -189,4 +189,216 @@
   }
   #visions-box .vision-container .visions3 button:hover {
     background-color: #d1510c;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #visions-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+#visions-box h2 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+#visions-box p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.vision-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.visions1,
+.visions2,
+.visions3 {
+  flex: 1;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  margin: 0 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.visions1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.visions2 {
+  background: rgb(198, 228, 214);
+}
+.visions3 {
+  background: rgb(247, 235, 207);
+}
+
+.vision-img {
+  width: 40px;
+}
+
+.vision-img img {
+  width: 100%;
+  display: block;
+}
+
+.vision-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.vision-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: left;
+}
+
+.vision-subtitle {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+}
+
+.vision-btn1,
+.vision-btn2,
+.vision-btn3 {
+  width: 90px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 13px;
+  border-radius: 3px;
+  color: #fff;
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 13px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.vision-btn1 {
+  background: rgb(84, 144, 245);
+}
+.vision-btn2 {
+  background: rgb(9, 161, 92);
+}
+.vision-btn3 {
+  background: rgb(255, 194, 57);
+}
+
+#visions-box .vision-container .visions1 button:hover,
+#visions-box .vision-container .visions2 button:hover,
+#visions-box .vision-container .visions3 button:hover {
+  background-color: #d1510c;
+}
+
+/* Tablet view (768px and below) */
+@media (max-width: 768px) {
+  .vision-container {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .visions1,
+  .visions2,
+  .visions3 {
+    max-width: 90%;
+    margin: 10px 0;
+  }
+
+  #visions-box h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  #visions-box p {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .vision-title {
+    font-size: 12px;
+  }
+
+  .vision-subtitle {
+    font-size: 10px;
+  }
+}
+
+/* Mobile view (480px and below) */
+@media (max-width: 480px) {
+  .visions1,
+  .visions2,
+  .visions3 {
+    max-width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  .vision-btn1,
+  .vision-btn2,
+  .vision-btn3 {
+    width: 100%;
+    font-size: 11px;
+  }
+
+  #visions-box h2 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  #visions-box p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .vision-title {
+    font-size: 11px;
+  }
+
+  .vision-subtitle {
+    font-size: 9px;
+  }
+}

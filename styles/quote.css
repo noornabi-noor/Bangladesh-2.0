@@ -1,58 +1,123 @@
 #yunus {
-    margin-top: 32px;
-  }
-  
+  margin-top: 32px;
+  box-sizing: border-box;
+}
+
+#yunus .quote {
+  box-sizing: border-box;
+  border: 0.65px solid rgba(14, 14, 14, 0.15);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  padding: 15px 15px 15px 60px; 
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#yunus .quote .quote-img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 45px;
+}
+
+#yunus .quote .quote-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#yunus .quote #p1 {
+  position: relative;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+#yunus .quote h3 {
+  margin-top: 7px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+}
+
+#yunus .quote #p2 {
+  margin-top: 2px;
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+}
+
+/* 📱 Tablet (≤ 768px) */
+@media (max-width: 768px) {
   #yunus .quote {
-    box-sizing: border-box;
-    border: 0.65px solid rgba(14, 14, 14, 0.15);
-    border-radius: 10px;
-    background: rgb(255, 255, 255);
-    padding: 15px;
-    position: relative;
+    padding: 15px 15px 15px 55px;
   }
-  
+
   #yunus .quote .quote-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 45px;
+    width: 40px;
+    top: 12px;
+    left: 12px;
   }
-  
-  #yunus .quote .quote-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
+
   #yunus .quote #p1 {
-    position: relative;
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0%;
-    text-align: left;
+    font-size: 11px;
+    line-height: 15px;
   }
-  
+
   #yunus .quote h3 {
-    margin-top: 7px;
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 15px;
-    letter-spacing: 0%;
-    text-align: left;
+    font-size: 13px;
+    line-height: 16px;
   }
-  
+
   #yunus .quote #p2 {
-    margin-top: 2px;
-    color: rgba(14, 14, 14, 0.6);
-    font-family: Fira Sans;
-    font-size: 10px;
-    font-weight: 400;
-    line-height: 15px;
-    letter-spacing: 0%;
-    text-align: left;
+    font-size: 9.5px;
+    line-height: 13px;
   }
+}
+
+/* 📱 Mobile (≤ 480px) */
+@media (max-width: 480px) {
+  #yunus .quote {
+    padding: 60px 15px 15px 15px; /* move image to top */
+    align-items: center;
+    text-align: center;
+  }
+
+  #yunus .quote .quote-img {
+    position: static;
+    width: 50px;
+    margin-bottom: 10px;
+  }
+
+  #yunus .quote #p1,
+  #yunus .quote h3,
+  #yunus .quote #p2 {
+    text-align: center;
+  }
+
+  #yunus .quote #p1 {
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  #yunus .quote h3 {
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 5px;
+  }
+
+  #yunus .quote #p2 {
+    font-size: 9px;
+    line-height: 13px;
+  }
+}
